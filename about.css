@@ -1,0 +1,224 @@
+#about {
+  margin-top: -1%;
+}
+
+.about-section {
+  margin-top: -3rem;
+}
+
+.main-sec {
+  background-image: url(./img/backround/intro-design-mobile.png);
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.greet {
+  color: #ec5242;
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.logo-descript {
+  text-align: center;
+  width: 50%;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-head {
+  font-weight: 900;
+  font-size: 40px;
+  color: #ec5242;
+}
+
+.about-description {
+  background-color: rgb(255, 255, 255, 0.7);
+  padding: 20px 10px;
+  width: 90%;
+  border: solid 2px #d3d3d3;
+}
+
+.contact-us {
+  text-align: center;
+}
+
+.main-sec a {
+  text-decoration: underline;
+  color: #272a31;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.about_logo {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+}
+
+.logo1 {
+  padding: 30px;
+}
+
+.students {
+  background-color: #fff;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+}
+
+.one_stud {
+  background-image: url('./img/people/person1.png');
+}
+
+.one_stud,
+.two_stud {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 300px;
+  width: 90%;
+  text-align: center;
+  padding: 4%;
+  min-height: 200px;
+  margin-top: 20px;
+  color: #d3d3d3;
+}
+
+.two_stud {
+  background-image: url('./img/people/person2.png');
+}
+
+.partner {
+  background-color: #272a31;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #d3d3d3;
+}
+
+.partner ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.partner li {
+  width: 9rem;
+}
+
+.partner img {
+  width: 100px;
+}
+
+.footer {
+  background-color: #d3d3d3;
+  color: #272a31;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0.3rem 0.3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.footer img {
+  width: 3rem;
+}
+
+.space {
+  height: 10px;
+}
+
+.log-text {
+  color: #272a31;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.logo-f {
+  margin-left: -30px;
+}
+
+@media only screen and (min-width: 576px) {
+  .footer {
+    padding: 0.1rem 1rem;
+  }
+
+  .footer img {
+    width: 6rem;
+  }
+
+  .footer ul {
+    font-size: 16px;
+    gap: 3rem;
+  }
+}
+
+/* big screen */
+@media only screen and (min-width: 768px) {
+  .students {
+    margin-left: -4%;
+  }
+
+  .students-img {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 20px;
+  }
+
+  .students-img .one_stud,
+  .two_stud {
+    width: 70%;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .footer {
+    background-color: #272a31;
+    color: #d3d3d3;
+    display: flex;
+    padding: 0.1rem 5%;
+  }
+
+  .footer ul {
+    gap: 5rem;
+  }
+
+  .log-text {
+    color: #d3d3d3;
+  }
+
+  .about-head {
+    font-size: 70px;
+  }
+}
