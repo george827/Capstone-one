@@ -80,7 +80,8 @@ nav {
 #logo {
   display: flex;
   gap: 10px;
-  margin: 5px 20px;
+
+  /* margin: 5px 20px; */
 }
 
 .logo-text {
@@ -171,7 +172,7 @@ a.active {
   gap: 5px;
   width: 100%;
   background-image: url("./img/backround/intro-design-desktop.png");
-  background-size: cover;
+  background-size: contain;
 }
 
 .home {
@@ -186,13 +187,12 @@ a.active {
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 1000;
   font-size: 40px;
   color: #ec5242;
 }
 
 .description-1 {
-  background-color: #d3d3d3;
   border: 4px solid #fff;
   text-align: justify;
   width: 60%;
@@ -252,12 +252,28 @@ h1 {
 .main-program li {
   background-color: rgb(255, 255, 255, 0.1);
   display: flex;
-  gap: 0.8rem;
+  gap: 1rem;
   align-items: center;
-  padding: 5%;
+  justify-content: center;
+  padding: 1%;
 }
 
-.main-program li h2 {
+.image-container img {
+  height: 90%;
+  width: 90%;
+}
+
+.main-program div img {
+  height: 3rem;
+}
+
+.card-info h3 {
+  font-size: 1.4rem;
+  padding-bottom: 0.6rem;
+  margin: 4px 0;
+}
+
+.main-program li h3 {
   color: #ec5242;
   font-size: 1.3rem;
   min-width: 90px;
@@ -328,23 +344,12 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.image-container img {
-  height: 90%;
-  width: 90%;
-}
-
 .card-info {
   display: flex;
   flex-direction: column;
   color: #272a31;
   justify-content: center;
   width: 100%;
-}
-
-.card-info h3 {
-  font-size: 1.4rem;
-  padding-bottom: 0.6rem;
-  margin: 4px 0;
 }
 
 .p1,
@@ -375,7 +380,7 @@ h1 {
 
 /* hide section in mobile */
 .partner,
-footer {
+.foot {
   display: none;
 }
 
@@ -390,45 +395,64 @@ footer {
     display: block;
   }
 
-  h1 {
-    font-size: 50px;
-  }
-
   .description-1 {
     width: 48%;
   }
 
   /* feature section */
+  .main-program {
+    text-align: center;
+  }
 
   .main-program ul {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    width: 80%;
+  }
+
+  .main-program div {
+    width: auto;
+  }
+
+  .partner img {
+    width: 150px;
+  }
+
+  .main-program div img {
+    height: 3rem;
+  }
+
+  h1 {
+    font-size: 80px;
   }
 
   .main-program li {
-    display: flex;
     flex-direction: column;
-    gap: 2px;
+    align-content: center;
     align-items: center;
     justify-content: center;
     padding: 1%;
-    min-height: 300px;
+    gap: 0.1rem;
+
+    /* max-height: 250px; */
+    min-height: 200px;
+    height: auto;
   }
 
   .main-program li:hover {
     transform: scale(1.15);
   }
 
-  .main-program li h2 {
+  .main-program li h3 {
     color: #ec5242;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     min-width: 90px;
+    margin-top: -1px;
   }
 
   .main-program li p {
     font-size: 1rem;
+    margin-top: -10px;
   }
 
   .main-program a {
@@ -484,13 +508,12 @@ footer {
     gap: 5rem;
   }
 
-  .partner img {
-    width: 150px;
-  }
-
   .foot {
     display: flex;
     background-color: #d3d3d3;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .foot ul {
@@ -498,7 +521,8 @@ footer {
     list-style: none;
     justify-content: space-between;
     gap: 5rem;
-    margin-left: 10%;
+
+    /* margin-left: 10%; */
   }
 
   #line-partner {

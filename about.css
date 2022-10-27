@@ -11,12 +11,16 @@
   padding-top: 20%;
   padding-left: 5%;
   padding-bottom: 2%;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .greet {
   color: #ec5242;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 800;
+  font-size: 45px;
 }
 
 .logo-descript {
@@ -24,9 +28,15 @@
   width: 50%;
 }
 
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-head {
-  font-weight: 500;
-  font-size: 50px;
+  font-weight: 900;
+  font-size: 40px;
   color: #ec5242;
 }
 
@@ -38,19 +48,18 @@
 }
 
 .contact-us {
-  width: 70%;
   text-align: center;
 }
 
-.contact-us a {
+.main-sec a {
   text-decoration: underline;
   color: #272a31;
-  font-size: 17px;
+  font-size: 20px;
   margin-top: 20px;
 }
 
 .about_logo {
-  background-color: rgb(255, 255, 255, 0.7);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,13 +68,11 @@
 }
 
 .logo1 {
-  scale: 1.8;
   padding: 30px;
-  z-index: 1;
 }
 
 .students {
-  background-color: rgb(255, 255, 255, 0.7);
+  background-color: #fff;
   margin-top: 5px;
   display: flex;
   flex-direction: column;
@@ -102,13 +109,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: #d3d3d3;
 }
 
 .partner ul {
   list-style: none;
   display: flex;
-  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.partner li {
+  width: 9rem;
 }
 
 .partner img {
@@ -119,20 +133,27 @@
   background-color: #d3d3d3;
   color: #272a31;
   display: flex;
+  flex-direction: row;
   gap: 10px;
-  padding: 0 10px;
+  padding: 0.3rem 0.3rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  gap: 1rem;
-  margin-left: 10%;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.footer img {
+  width: 3rem;
 }
 
 .space {
-  height: 20px;
+  height: 10px;
 }
 
 .log-text {
@@ -141,8 +162,31 @@
   font-weight: 400;
 }
 
+.logo-f {
+  margin-left: -30px;
+}
+
+@media only screen and (min-width: 576px) {
+  .footer {
+    padding: 0.1rem 1rem;
+  }
+
+  .footer img {
+    width: 6rem;
+  }
+
+  .footer ul {
+    font-size: 16px;
+    gap: 3rem;
+  }
+}
+
 /* big screen */
 @media only screen and (min-width: 768px) {
+  .students {
+    margin-left: -4%;
+  }
+
   .students-img {
     display: flex;
     flex-direction: row;
@@ -162,9 +206,19 @@
   .footer {
     background-color: #272a31;
     color: #d3d3d3;
+    display: flex;
+    padding: 0.1rem 5%;
+  }
+
+  .footer ul {
+    gap: 5rem;
   }
 
   .log-text {
     color: #d3d3d3;
+  }
+
+  .about-head {
+    font-size: 70px;
   }
 }
