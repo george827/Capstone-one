@@ -141,6 +141,7 @@ nav {
   margin-left: -100px;
   padding-left: 10%;
   padding-top: 20px;
+  z-index: 2;
 }
 
 .menu-large {
