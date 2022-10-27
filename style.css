@@ -174,7 +174,7 @@ a.active {
   flex-direction: column;
   gap: 5px;
   width: 100%;
-  background-image: url("./img/backround/intro-design-desktop.png");
+  background-image: url("./img/backround/intro-design-mobile.png");
   background-size: contain;
 }
 
@@ -396,6 +396,10 @@ h1 {
 
   .menu-large {
     display: block;
+  }
+
+  .welcome {
+    background-image: url("./img/backround/intro-design-desktop.png");
   }
 
   .description-1 {
