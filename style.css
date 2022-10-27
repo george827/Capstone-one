@@ -166,7 +166,10 @@ a.active {
 
 /* welcome */
 .welcome {
-  padding: 15% 10%;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
   display: flex;
   flex-direction: column;
   gap: 5px;
