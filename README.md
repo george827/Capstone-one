@@ -50,7 +50,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 - Inspiration
 - [Microverse](https://github.com/microverseinc)
-- [cindy shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- [cindy shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) The web is based on her design global summit
 
 
 ## 📝 License
