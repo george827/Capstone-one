@@ -175,7 +175,8 @@ a.active {
   gap: 5px;
   width: 100%;
   background-image: url("./img/backround/intro-design-mobile.png");
-  background-size: contain;
+  background-size: 100%;
+  overflow: hidden;
 }
 
 .home {
