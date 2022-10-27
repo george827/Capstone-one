@@ -433,8 +433,6 @@ h1 {
     justify-content: center;
     padding: 1%;
     gap: 0.1rem;
-
-    /* max-height: 250px; */
     min-height: 200px;
     height: auto;
   }
@@ -521,8 +519,6 @@ h1 {
     list-style: none;
     justify-content: space-between;
     gap: 5rem;
-
-    /* margin-left: 10%; */
   }
 
   #line-partner {
