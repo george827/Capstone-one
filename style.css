@@ -173,7 +173,7 @@ a.active {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 100%;
+  width: 80%;
   background-image: url("./img/backround/intro-design-mobile.png");
   background-size: 100%;
   overflow: hidden;
